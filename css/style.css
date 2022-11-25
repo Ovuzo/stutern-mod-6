@@ -1,125 +1,266 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
-*{
-    padding: 0%;
-    margin: 0%;
-    box-sizing: border-box;
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(67, 67, 67);
 }
 /*UTILITY CLASS*/
-.red{
-    color: red;
+.red {
+  color: red;
 }
-.text-light{
-    color: #fff;
+.b {
+  border: solid yellow 3px;
 }
-.next-line{
-    display: block;
+.dark {
+  background: #000;
 }
-.container{
-    width: 90%;
-    margin: auto;
+.text-light {
+  color: #fff;
 }
-.btn-primary{
-    background: red;
-    border: none;
-    padding: .5rem 1rem;
-    border-radius: 5px;
+.next-line {
+  display: block;
 }
-.h1{
-    font-weight: 200;
-    font-size: 1.5rem;
+.container {
+  width: 90%;
+  margin: auto;
 }
-.p{
-    font-size: 1.1rem;
-    font-weight: 400;
+.btn-primary {
+  background: red;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
 }
-.hero-h1{
-    font-weight: 200;
-    font-size: 1.5rem;
-    padding: 0 3rem;
+.hhh1 {
+  font-weight: 200;
+  font-size: 1.5rem;
 }
-.hero-p{
-    font-size: 1.1rem;
-    font-weight: 400;
-    line-height: 3rem;
+.para {
+  font-size: 1.1rem;
+  font-weight: 400;
 }
-body{
-    font-family: 'Poppins', sans-serif;
+.hero-h1 {
+  font-weight: 200;
+  font-size: 1.5rem;
+  padding: 0 3rem;
 }
-header{
-    height: 100vh;
-    background: rgba(0, 0, 0, 0.8);
-    background: url('../img/netflix.jpg') no-repeat center center/cover;
+.hero-p {
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 3rem;
 }
-.logo{
-    width: 100%;
-    height: 100%;
+body {
+  font-family: "Poppins", sans-serif;
 }
-.logo-img{
-    width: 30%;
-    height: 100%;
+header {
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.8);
+  background: url("../img/netflix.jpg") no-repeat center center/cover;
 }
-nav{
-    width: 100%;
-    display: grid;
-    grid-template-columns: 50% 10%;
-    justify-content: space-between;
-    padding: 2rem 0;
-    /* height: 30px; */
+.logo {
+  width: 100%;
+  height: 100%;
 }
-nav .link{
-    display: flex;
-    height: 100%;
-    align-items: center;
-    justify-content: flex-end;
-    
+.logo-img {
+  width: 30%;
+  height: 100%;
 }
-.overlay{
-    height: 100vh;
-    width: 100%;
-    
-    background: rgba(0, 0, 0, 0.7);  
+nav {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 10%;
+  justify-content: space-between;
+  padding: 2rem 0;
+  /* height: 30px; */
 }
-.hero{
-    width: 60%;
-    color: #fff;
-    margin:5rem auto;
-    text-align: center;
-    padding: 1rem 0rem;
+nav .link {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: flex-end;
+}
+.overlay {
+  height: 100vh;
+  width: 100%;
 
-    
+  background: rgba(0, 0, 0, 0.7);
 }
-.hero-input{
-    width: 100%;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 3rem;
-    
+.hero {
+  width: 60%;
+  color: #fff;
+  margin: 5rem auto;
+  text-align: center;
+  padding: 1rem 0rem;
 }
-.hero-input input{
-    width: 70%;
-    height: 100%;
+.hero-input {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 3rem;
 }
-.hero-link{
-    background: red;
-    width: 29.5%;
+.hero-input input {
+  width: 70%;
+  height: 100%;
+}
+.hero-link {
+  background: red;
+  width: 29.5%;
+  color: #fff;
+  height: 100%;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-input a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.3rem;
+}
+#sec {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/netflix-logo.png");
+}
+#sec2 {
+  width: 100%;
+  margin-top: 10px;
+}
+.sec2-holder {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.sec2-txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+}
+.sec2-img {
+  height: 100%;
+  background: #fff;
+  justify-content: center;
+}
+.sec2-img .sec2-pix {
+  width: 100%;
+  height: 100%;
+}
+#sec3 {
+  height: 80vh;
+  margin-top: 10px;
+}
+.sec3-holder {
+  height: 100%;
+  display: flex;
+}
+.sec3-img {
+  height: 100%;
+  width: 50%;
+}
+.sec3-img-cover {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.sec3-pix {
+  height: 80%;
+  width: 90%;
+}
+.sec3-img-cover2 {
+  display: grid;
+  grid-template-columns: 20% 50% 20%;
+  gap: 5%;
+  height: 20%;
+  width: 60%;
+  color: #fff;
+  border: #fff;
+  border: solid rgb(67, 67, 67);
+  border-radius: 10px;
+  position: absolute;
+  top: 60%;
+  padding: 7px;
+}
+.sec3-txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* .sec3-img-cover2{
     color: #fff;
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+} */
+.sec3-img-img2 {
+  height: 100%;
+  width: 100%;
+  background: red;
+  background: url("../img/sec3-img2.png") no-repeat center center/cover;
+}
+.sec3-img-pix2 {
+  height: 100%;
+  width: 100%;
+}
+.sec3-img-icon a i {
+  color: #fff;
+}
+.sec3-img-txt2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.sec3-img-txt2 .p a {
+  text-decoration: none;
+  color: blue;
+}
+.sec3-img-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#sec4{
+    width: 100%;
+    margin-top: 10px;
+    color: #fff;
+    height: 40vh;
+}
+.sec4-cover{
     height: 100%;
-    border: none;
+}
+.sec4-txt{
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
+    height: 100%;
+    width: 50%;
+
 }
-.hero-input a{
-    text-decoration: none;
-    color: #fff;
-    font-size: 1.3rem;
-    
-}
-#sec{
+
+#sec5{
+    height: 80vh;
     width: 100%;
-    height: 100vh;
-    background: url('../img/netflix-logo.png');
+    color: #fff;
+    background: #000;
+    margin-top: 10px;
+}
+.sec5-cover{
+    display: flex; 
+}
+.sec5-img{
+    height: 80%;
+    width:100% ;
+}
+.sec5-txt{
+display: flex;
+flex-direction: column;
+justify-content: center;
 }
