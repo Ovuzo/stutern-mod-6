@@ -24,6 +24,10 @@ body {
 .text-center{
   text-align: center;
 }
+.h1{
+  font-size: 3.125rem;
+  font-weight: 600;
+}
 .next-line {
   display: block;
 }
@@ -40,6 +44,9 @@ body {
 .hhh1 {
   font-weight: 200;
   font-size: 1.5rem;
+}
+.p{
+  font-size: 1.625rem;
 }
 .para {
   font-size: 1.1rem;
@@ -249,7 +256,7 @@ nav .link {
 }
 
 #sec5{
-    height: 80vh;
+    padding: 3rem 0;
     width: 100%;
     color: #fff;
     background: #000;
@@ -259,13 +266,18 @@ nav .link {
     display: flex; 
 }
 .sec5-img{
-    height: 80%;
-    width:100% ;
+    height: 100%;
+    width: 50%;
 }
 .sec5-txt{
+  width: 50%;
 display: flex;
 flex-direction: column;
 justify-content: center;
+}
+.sec5-pix{
+  width: 100%;
+  height: 100%;
 }
 #sec6{
   width: 100%;
